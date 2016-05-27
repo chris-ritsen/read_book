@@ -5,3 +5,16 @@ of the word under the cursor sot that longer words cause more of a delay.
 xrdb settings make a window with a huge font size and large line spacing, red
 text on black and a default colored cursor.
 
+
+1. Creates a terminal window on the largest monitor and attaches to an
+   existing tmux session running an instance of vim with a text ebook.
+2. Ensures that the window is visible on the screen.
+3. Loops while the window is attached to the tmux session.
+4. Sleeps for an interval if the window is no longer active or the keyboard
+   has been used in the past three seconds.
+5. Advances the cursor by a word, first placing the cursor over the beginning
+   of the next word, then moving it to the end of the same word.
+6. Checks the length in characters of word under the cursor and delays the
+   overall advancement speed given a rate passed in as a shell parameter.
+7. Loops until the window is detached from the tmux session.
+
