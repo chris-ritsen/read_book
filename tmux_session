@@ -1,0 +1,15 @@
+
+source-file "/home/chris/.tmux.conf"
+
+bind-key R respawn-window
+set-option -g default-terminal "screen-256color"
+set-option -g set-remain-on-exit on
+set-option -g status off
+
+new-session -s books -c "/Media/Books/important" -n books "/home/chris/.scripts/zsh/name.zsh books; /usr/local/bin/vim --servername BOOKS -p -c 'autocmd VimLeavePre * mksession! /home/chris/.tmp/vim/books' -c 'colorscheme default' -c 'silent! source /home/chris/.tmp/vim/books' -c 'setlocal noshowmode noshowmatch matchpairs=' -c 'silent execute \"!/home/chris/.scripts/zsh/name.zsh books\"'"
+
+new-session -A -c "/Media/Books/important" -s books@www -t books
+new-session -A -c "/Media/Books/important" -s books@laptop -t books
+
+select-window -t books:1
+

@@ -1,0 +1,11 @@
+
+[Unit]
+Conflicts=shutdown.target
+Description=Run a book to read
+
+[Service]
+ExecStart=/home/chris/.scripts/zsh/read_book.zsh
+
+[Install]
+WantedBy=default.target
+

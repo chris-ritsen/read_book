@@ -1,0 +1,13 @@
+
+[Unit]
+Conflicts=shutdown.target
+Description=Run a book to read
+
+[Service]
+ExecStart=/home/chris/.scripts/automate/book.zsh
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=default.target
+
