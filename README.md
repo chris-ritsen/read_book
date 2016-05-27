@@ -3,12 +3,13 @@ This basically sets up a urxvt terminal window that runs vim inside of tmux
 and automatically advances the cursor at a given rate.  It's not designed to
 work anywhere but my own computer, so don't expect this to be usable.  It
 checks the length of the word under the cursor sot that longer words cause
-more of a delay.  xrdb settings make a window with a huge font size and large
-line spacing, red text on black and a default colored cursor.
+more of a delay.  The window it creates has a huge font size and large line
+spacing, red text on black and a default colored cursor.
 
 
-1. Creates a terminal window on the largest monitor and attaches to an
-   existing tmux session running an instance of vim with a text ebook.
+1. Creates a terminal window on my largest monitor (desktop 2) and attaches to
+   an existing tmux session running an instance of vim with a text ebook.  If
+   this is already visible, this step is skipped.
 2. Ensures that the window is visible on the screen.
 3. Loops while the window is attached to the tmux session.
 4. Sleeps for an interval if the window is no longer active or the keyboard
@@ -31,3 +32,4 @@ Dependencies:
 - xprintidle
 - xrdb
 - zsh
+
