@@ -1,0 +1,59 @@
+
+URxvt*boldFont: xft:Monaco:bold:pixelsize=16,xft:Symbola:bold:pixelsize=16 
+URxvt*boldItalicFont: xft:Monaco:bold:italic:pixelsize=16,xft:Symbola:bold:italic:pixelsize=16  
+URxvt*font:	xft:Monaco:regular:pixelsize=16,xft:Symbola:regular:pixelsize=16
+URxvt*imFont: xft:Monaco:regular:pixelsize=16,xft:Symbola:regular:pixelsize=16 
+URxvt*italicFont: xft:Monaco:italic:pixelsize=16,xft:Symbola:italic:pixelsize=16   
+
+URxvt*letterSpace: 0
+URxvt*lineSpace: 0
+
+laptopurxvt*boldFont: xft:Monaco:bold:pixelsize=15,xft:Symbola:bold:pixelsize=15 
+laptopurxvt*boldItalicFont: xft:Monaco:bold:italic:pixelsize=15,xft:Symbola:bold:italic:pixelsize=15  
+laptopurxvt*font:	xft:Monaco:regular:pixelsize=15,xft:Symbola:regular:pixelsize=15
+laptopurxvt*imFont: xft:Monaco:regular:pixelsize=15,xft:Symbola:regular:pixelsize=15 
+laptopurxvt*italicFont: xft:Monaco:italic:pixelsize=15,xft:Symbola:italic:pixelsize=15   
+
+laptopurxvt*letterSpace: 0
+laptopurxvt*lineSpace: 0
+
+bigurxvt*boldFont: xft:Monaco:bold:pixelsize=24.9,xft:Symbola:bold:pixelsize=24.9 
+bigurxvt*boldItalicFont: xft:Monaco:bold:italic:pixelsize=24.9,xft:Symbola:bold:italic:pixelsize=24.9  
+bigurxvt*font:	xft:Monaco:regular:pixelsize=24.9,xft:Symbola:regular:pixelsize=24.9
+bigurxvt*imFont: xft:Monaco:regular:pixelsize=24.9,xft:Symbola:regular:pixelsize=24.9 
+bigurxvt*italicFont: xft:Monaco:italic:pixelsize=24.9,xft:Symbola:italic:pixelsize=24.9   
+
+bigurxvt*letterSpace: 1.0
+bigurxvt*lineSpace: 0
+
+largeurxvt*boldFont: xft:Monaco:bold:pixelsize=24.9,xft:Symbola:bold:pixelsize=24.9 
+largeurxvt*boldItalicFont: xft:Monaco:bold:italic:pixelsize=24.9,xft:Symbola:bold:italic:pixelsize=24.9  
+largeurxvt*font:	xft:Monaco:regular:pixelsize=24.9,xft:Symbola:regular:pixelsize=24.9
+largeurxvt*imFont: xft:Monaco:regular:pixelsize=24.9,xft:Symbola:regular:pixelsize=24.9 
+largeurxvt*italicFont: xft:Monaco:italic:pixelsize=24.9,xft:Symbola:italic:pixelsize=24.9   
+
+largeurxvt*letterSpace: 0.0
+largeurxvt*lineSpace: 0
+
+bigspaceurxvt*boldFont: xft:Monaco:bold:pixelsize=52,xft:Symbola:bold:pixelsize=52 
+bigspaceurxvt*boldItalicFont: xft:Monaco:bold:italic:pixelsize=52,xft:Symbola:bold:italic:pixelsize=52  
+bigspaceurxvt*font:	xft:Monaco:regular:pixelsize=52,xft:Symbola:regular:pixelsize=52
+bigspaceurxvt*foreground:#FF0000
+bigspaceurxvt*imFont: xft:Monaco:regular:pixelsize=52,xft:Symbola:regular:pixelsize=52 
+bigspaceurxvt*italicFont: xft:Monaco:italic:pixelsize=52,xft:Symbola:italic:pixelsize=52   
+bigspaceurxvt*perl-ext: default,clipboard,selection-to-clipboard,url-select,keyboard-select,delete
+
+bigspaceurxvt*letterSpace: 1.0
+bigspaceurxvt*lineSpace: 68
+
+bigspacelaptop*boldFont: xft:Monaco:bold:pixelsize=27,xft:Symbola:bold:pixelsize=27 
+bigspacelaptop*boldItalicFont: xft:Monaco:bold:italic:pixelsize=27,xft:Symbola:bold:italic:pixelsize=27  
+bigspacelaptop*font:	xft:Monaco:regular:pixelsize=27,xft:Symbola:regular:pixelsize=27
+bigspacelaptop*imFont: xft:Monaco:regular:pixelsize=27,xft:Symbola:regular:pixelsize=27 
+bigspacelaptop*italicFont: xft:Monaco:italic:pixelsize=27,xft:Symbola:italic:pixelsize=27   
+
+bigspacelaptop**foreground:#FF0000
+
+bigspacelaptop*letterSpace: 1.0
+bigspacelaptop*lineSpace: 76 
+
