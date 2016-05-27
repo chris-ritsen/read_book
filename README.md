@@ -19,3 +19,15 @@ line spacing, red text on black and a default colored cursor.
    overall advancement speed given a rate passed in as a shell parameter.
 7. Loops until the window is detached from the tmux session.
 
+Dependencies:
+
+- redis
+- rxvt-unicode
+- systemd
+- tmux
+- vim (built with +clientserver)
+- wmctrl
+- xdotool
+- xprintidle
+- xrdb
+- zsh
