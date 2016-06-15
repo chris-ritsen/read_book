@@ -1,3 +1,4 @@
+I've since reimplemented this in python, so this is deprecated.
 
 This basically sets up a urxvt terminal window that runs vim inside of tmux
 and automatically advances the cursor at a given rate.  It's not designed to
